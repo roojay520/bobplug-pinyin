@@ -539,6 +539,25 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+cnchar-trad@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/cnchar-trad/-/cnchar-trad-3.0.1.tgz#4f4fe2cd6d45865d255d96c54d357c7f0e366772"
+  integrity sha512-F5QrzhCeFvpcZuSDKci/+AM5GcAbrJm9Bsbbvzz4z5KwLrmcie9L18Ramc7W7YibtyC1tCVjMy1O0y9qpmVGEw==
+  dependencies:
+    cnchar-types "^3.0.1"
+
+cnchar-types@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/cnchar-types/-/cnchar-types-3.0.1.tgz#be9840d145cc37053f946df7c96cc8240f420f32"
+  integrity sha512-GeaadgVuI41wlO0Q85e4VCW4i6fkjpuQ9U9xA3gvkXhdrAqjwwVwQUBiOpvT7yzimmZhlAE/r6/Dv/vcSiDMBg==
+
+cnchar@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/cnchar/-/cnchar-3.0.1.tgz#c96d5639357f84aa7c860d455de86a8192d895a9"
+  integrity sha512-TMK2NA/lB/3FwkUPVCo5uiEed6TIzfUxF/v/yK3gb1FA07rDg0l0joH8yY8eyHAllyP1Rk7F9iyOx5wSWqF4pw==
+  dependencies:
+    cnchar-types "^3.0.1"
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -2222,11 +2241,6 @@ q@^1.5.1:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-querystring@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
-  integrity sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
-
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -2692,6 +2706,11 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+traditional-or-simplified@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/traditional-or-simplified/-/traditional-or-simplified-1.0.3.tgz#f401f6a0ed2592e0686b6e0f584b0ac21a2b481e"
+  integrity sha1-9AH2oO0lkuBoa24PWEsKwhorSB4=
 
 trim-newlines@^1.0.0:
   version "1.0.0"

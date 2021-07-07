@@ -27,7 +27,9 @@
   },
   "dependencies": {
     "@bob-plug/core": "^0.1.3",
-    "querystring": "^0.2.1"
+    "cnchar": "^3.0.1",
+    "cnchar-trad": "^3.0.1",
+    "traditional-or-simplified": "^1.0.3"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",
