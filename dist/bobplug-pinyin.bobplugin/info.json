@@ -1,0 +1,30 @@
+{
+  "identifier": "com.roojay.bobplug.bobplugpinyin",
+  "category": "translate",
+  "version": "0.0.0",
+  "name": "汉字转换",
+  "summary": "Bob 汉字转换插件",
+  "author": "roojay520",
+  "appcast": "https://github.com/roojay520/bobplug-pinyin/master/src/appcast.json",
+  "homepage": "https://github.com/roojay520/bobplug-pinyin",
+  "icon": "001",
+  "minBobVersion": "0.5.0",
+  "options": [
+    {
+      "identifier": "cache",
+      "type": "menu",
+      "title": "缓存",
+      "defaultValue": "disable",
+      "menuValues": [
+        {
+          "title": "开启",
+          "value": "enable"
+        },
+        {
+          "title": "关闭",
+          "value": "disable"
+        }
+      ]
+    }
+  ]
+}
