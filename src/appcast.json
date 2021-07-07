@@ -1,4 +1,12 @@
 {
   "identifier": "com.roojay.bobplug.bobplugpinyin",
-  "versions": []
+  "versions": [
+    {
+      "version": "0.0.2",
+      "desc": "https://github.com/roojay520/bobplug-pinyin/blob/master/CHANGELOG.md",
+      "sha256": "ace577fe2ec5ff14e2e5dda7f7ed0496281634e9d1a9c700e60109187e148e50",
+      "url": "https://github.com/roojay520/bobplug-pinyin/releases/download/v0.0.2/bobplug-pinyin-v0.0.2.bobplugin",
+      "minBobVersion": "0.5.0"
+    }
+  ]
 }
