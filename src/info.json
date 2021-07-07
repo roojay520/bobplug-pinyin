@@ -1,7 +1,7 @@
 {
   "identifier": "com.roojay.bobplug.bobplugpinyin",
   "category": "translate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "name": "汉字转换",
   "summary": "Bob 汉字转换插件",
   "author": "roojay520",
