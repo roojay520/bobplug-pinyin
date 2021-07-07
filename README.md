@@ -1,10 +1,11 @@
 # bobplug-pinyin
 
-> 这是 [Bob](https://ripperhe.gitee.io/bob/#/) 的一个 google 翻译插件
+> 这是 [Bob](https://ripperhe.gitee.io/bob/#/) 的一个汉字转换插件;
 
 ## 特性
 
 - 支持缓存查询结果(默认缓存过期时间为一周);
+- 支持简繁互转，汉字>拼音，汉字>火星文转换；
 
 ## 安装
 
