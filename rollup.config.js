@@ -5,6 +5,7 @@ import esbuild from 'rollup-plugin-esbuild';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import nodePolyfills from 'rollup-plugin-polyfill-node';
+import babel from '@rollup/plugin-babel';
 import packageJson from './package.json';
 
 const pkg = `${packageJson.name}.bobplugin`;
@@ -23,7 +24,7 @@ const RollupConfig = {
       $log: '$log',
       $data: '$data',
       $file: '$file',
-    }
+    },
   },
   plugins: [
     copy({
@@ -39,6 +40,13 @@ const RollupConfig = {
     }),
     commonjs(),
     nodePolyfills(),
+
+    babel({
+      extensions: ['.js', '.ts'],
+      babelHelpers: 'bundled',
+      exclude: 'node_modules/**',
+    }),
+
     esbuild({
       // All options are optional
       include: /\.[jt]?s$/, // default, inferred from `loaders` option
@@ -54,7 +62,7 @@ const RollupConfig = {
       },
     }),
   ],
-  external: ['crypto-js']
+  external: ['crypto-js'],
 };
 
 export default RollupConfig;
